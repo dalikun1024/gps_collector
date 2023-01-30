@@ -21,5 +21,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UISupportsDocumentBrowser</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>gps_collector uses your location</string>
 </dict>
 </plist>

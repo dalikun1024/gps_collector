@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F82D106D29866B35001421E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D106C29866B35001421E9 /* AppDelegate.m */; };
 		F82D107029866B35001421E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D106F29866B35001421E9 /* SceneDelegate.m */; };
-		F82D107329866B35001421E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D107229866B35001421E9 /* ViewController.m */; };
 		F82D107629866B35001421E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82D107429866B35001421E9 /* Main.storyboard */; };
 		F82D107829866B37001421E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82D107729866B37001421E9 /* Assets.xcassets */; };
 		F82D107B29866B37001421E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82D107929866B37001421E9 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,10 @@
 		F82D108829866B37001421E9 /* gps_collectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D108729866B37001421E9 /* gps_collectorTests.m */; };
 		F82D109229866B37001421E9 /* gps_collectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D109129866B37001421E9 /* gps_collectorUITests.m */; };
 		F82D109429866B37001421E9 /* gps_collectorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82D109329866B37001421E9 /* gps_collectorUITestsLaunchTests.m */; };
+		F82D10A229866C49001421E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82D10A129866C49001421E9 /* CoreLocation.framework */; };
+		F82D10A42986817D001421E9 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F82D10A32986817D001421E9 /* ViewController.mm */; };
+		F82D10AB2986A42E001421E9 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F82D10A92986A42E001421E9 /* stop.png */; };
+		F82D10AC2986A42E001421E9 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = F82D10AA2986A42E001421E9 /* record.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,6 @@
 		F82D106E29866B35001421E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F82D106F29866B35001421E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		F82D107129866B35001421E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F82D107229866B35001421E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F82D107529866B35001421E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F82D107729866B37001421E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82D107A29866B37001421E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,10 @@
 		F82D108D29866B37001421E9 /* gps_collectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gps_collectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82D109129866B37001421E9 /* gps_collectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gps_collectorUITests.m; sourceTree = "<group>"; };
 		F82D109329866B37001421E9 /* gps_collectorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gps_collectorUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F82D10A129866C49001421E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F82D10A32986817D001421E9 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		F82D10A92986A42E001421E9 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = Assets.xcassets/stop.png; sourceTree = "<group>"; };
+		F82D10AA2986A42E001421E9 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record.png; path = Assets.xcassets/record.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82D10A229866C49001421E9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +95,7 @@
 				F82D108629866B37001421E9 /* gps_collectorTests */,
 				F82D109029866B37001421E9 /* gps_collectorUITests */,
 				F82D106929866B35001421E9 /* Products */,
+				F82D10A029866C49001421E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,9 +117,11 @@
 				F82D106E29866B35001421E9 /* SceneDelegate.h */,
 				F82D106F29866B35001421E9 /* SceneDelegate.m */,
 				F82D107129866B35001421E9 /* ViewController.h */,
-				F82D107229866B35001421E9 /* ViewController.m */,
+				F82D10A32986817D001421E9 /* ViewController.mm */,
 				F82D107429866B35001421E9 /* Main.storyboard */,
 				F82D107729866B37001421E9 /* Assets.xcassets */,
+				F82D10AA2986A42E001421E9 /* record.png */,
+				F82D10A92986A42E001421E9 /* stop.png */,
 				F82D107929866B37001421E9 /* LaunchScreen.storyboard */,
 				F82D107C29866B37001421E9 /* Info.plist */,
 				F82D107D29866B37001421E9 /* main.m */,
@@ -134,6 +144,14 @@
 				F82D109329866B37001421E9 /* gps_collectorUITestsLaunchTests.m */,
 			);
 			path = gps_collectorUITests;
+			sourceTree = "<group>";
+		};
+		F82D10A029866C49001421E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82D10A129866C49001421E9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82D10AC2986A42E001421E9 /* record.png in Resources */,
 				F82D107B29866B37001421E9 /* LaunchScreen.storyboard in Resources */,
+				F82D10AB2986A42E001421E9 /* stop.png in Resources */,
 				F82D107829866B37001421E9 /* Assets.xcassets in Resources */,
 				F82D107629866B35001421E9 /* Main.storyboard in Resources */,
 			);
@@ -266,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82D107329866B35001421E9 /* ViewController.m in Sources */,
+				F82D10A42986817D001421E9 /* ViewController.mm in Sources */,
 				F82D106D29866B35001421E9 /* AppDelegate.m in Sources */,
 				F82D107E29866B37001421E9 /* main.m in Sources */,
 				F82D107029866B35001421E9 /* SceneDelegate.m in Sources */,
@@ -450,6 +470,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +498,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
